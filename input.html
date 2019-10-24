@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>input输入框</title>
+    <style>
+        .demo{
+            padding:40px;
+        }
+        .input-fill-x{
+            display: flex;
+            position: relative;
+            margin-bottom: 24px;
+        }
+        .input-fill{
+            flex: 1;
+            height: 22px;
+            border-width: 1px;
+            border-color: rgb(217,217,217);
+            -webkit-appearance: none;
+            margin-right: 100px;
+            font-size: 14px;
+            font-weight: 400;
+            color: rgba(0,0,0,.65);
+            border-style: solid;
+            border-radius: 2px;
+            transition: all .3s;
+            padding: 4px 11px;
+        }
+        .input-fill:hover{
+            border-color: #62a2f5;
+        }
+        .input-fill:focus{
+            border-color: #62a2f5;
+            box-shadow: 0 0 0 2px rgba(55,126,232,.2);
+        }
+        .input-fill:placeholder-shown::placeholder{
+            color: transparent;
+        }
+        .input-fill:not(:placeholder-shown){
+            border-color: #62a2f5;
+        }
+        .input-fill:not(:placeholder-shown) ~ .input-label,
+        .input-fill:focus ~ .input-label{
+            transform: translate(6px,-24px) scale(1.5);
+            font-weight: bold;
+            text-shadow:
+                    0 1px brown,
+                    1px 2px brown;
+        }
+        .input-fill:focus ~ .input-remark{
+            color: gray;
+        }
+        .input-label{
+            position: absolute;
+            left: 12px;
+            top: 6px;
+            font-size: 14px;
+            color:rgb(191,191,191);
+            transition: all .3s;
+            pointer-events: none;
+            background-color: white;
+        }
+        .input-remark{
+            margin-left: -80px;
+            width: 100px;
+            font-size: 12px;
+            word-break: break-all;
+            color: transparent;
+            display: flex;
+            align-items: center;
+        }
+        .input-remark:before{
+            content: '*';
+            position: absolute;
+            margin-left: -1em;
+        }
+    </style>
+</head>
+<body>
+<form class="demo" action="radio.html" method="get">
+    <div class="input-fill-x">
+        <input class="input-fill" required placeholder="邮箱" pattern=".+@.+\.com$" title="邮箱格式不对哦">
+        <label class="input-label">email</label>
+        <label class="input-remark">推荐使用qq邮箱</label>
+    </div>
+    <div class="input-fill-x">
+        <input class="input-fill" placeholder="电话">
+        <label class="input-label">phone</label>
+        <label class="input-remark" pattern="^1(?:3\d|4[4-9]|5[0-35-9]|6[67]|7[013-8]|8\d|9\d)\d{8}$" title="手机号码格式不对哦">推荐使用移动电话</label>
+    </div>
+    <input type="submit"/>
+</form>
+</body>
+</html>
