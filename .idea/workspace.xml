@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11267f14-81d7-4818-aae9-72a282d48c24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/switch.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio.html" beforeDir="false" afterPath="$PROJECT_DIR$/radio.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,22 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/radio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
-              <folding>
-                <element signature="e#127#151#0" />
-                <element signature="e#292#316#0" />
-                <element signature="e#552#576#0" />
-                <element signature="e#1122#1146#0" />
-                <element signature="e#557#581#0" />
-                <element signature="e#1137#1161#0" />
-                <element signature="e#1756#1780#0" />
-                <element signature="e#1217#1241#0" />
-                <element signature="e#1022#1066#0" />
-                <element signature="e#711#735#0" />
-                <element signature="e#1522#1546#0" />
-                <element signature="e#1675#1699#0" />
-              </folding>
+            <state relative-caret-position="2280">
+              <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -43,18 +28,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="570">
+              <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
+              <folding>
+                <element signature="e#120#157#0" />
+                <element signature="e#179#282#0" />
+                <element signature="e#302#730#0" />
+                <element signature="e#756#802#0" />
+                <element signature="e#828#929#0" />
+                <element signature="e#980#1023#0" />
+                <element signature="e#1067#1113#0" />
+                <element signature="e#1214#1405#0" />
+                <element signature="e#1447#1483#0" />
+                <element signature="e#1504#1762#0" />
+                <element signature="e#1784#2009#0" />
+                <element signature="e#2038#2138#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/switch.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+              <first_editor relative-caret-position="60">
+                <caret line="2" selection-start-line="2" selection-end-line="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -89,6 +97,7 @@
         <option value="$PROJECT_DIR$/input.html" />
         <option value="$PROJECT_DIR$/radio.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/switch.html" />
       </list>
     </option>
   </component>
@@ -136,17 +145,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.radio.html">
+  <component name="RunManager" selected="JavaScript Debug.switch.html">
     <configuration name="input.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/uiComponent/input.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="radio.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/uiComponent/radio.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="switch.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/uiComponent/switch.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.radio.html" />
+        <item itemvalue="JavaScript Debug.switch.html" />
         <item itemvalue="JavaScript Debug.input.html" />
+        <item itemvalue="JavaScript Debug.radio.html" />
       </list>
     </recent_temporary>
   </component>
@@ -163,18 +176,22 @@
       <workItem from="1571826185138" duration="1962000" />
       <workItem from="1571896949517" duration="5671000" />
       <workItem from="1571902894116" duration="3302000" />
-      <workItem from="1571906840234" duration="9045000" />
+      <workItem from="1571906840234" duration="9738000" />
+      <workItem from="1571990326271" duration="812000" />
+      <workItem from="1572244039051" duration="4051000" />
+      <workItem from="1572249117362" duration="1458000" />
+      <workItem from="1572399062075" duration="1578000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19980000" />
+    <option name="totallyTimeSpent" value="28572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-196" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -186,8 +203,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -197,30 +215,30 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/input.html">
+    <entry file="file://$PROJECT_DIR$/radio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="2280">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/radio.html">
+    <entry file="file://$PROJECT_DIR$/input.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+        <state relative-caret-position="570">
+          <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
           <folding>
-            <element signature="e#127#151#0" />
-            <element signature="e#292#316#0" />
-            <element signature="e#552#576#0" />
-            <element signature="e#1122#1146#0" />
-            <element signature="e#557#581#0" />
-            <element signature="e#1137#1161#0" />
-            <element signature="e#1756#1780#0" />
-            <element signature="e#1217#1241#0" />
-            <element signature="e#1022#1066#0" />
-            <element signature="e#711#735#0" />
-            <element signature="e#1522#1546#0" />
-            <element signature="e#1675#1699#0" />
+            <element signature="e#120#157#0" />
+            <element signature="e#179#282#0" />
+            <element signature="e#302#730#0" />
+            <element signature="e#756#802#0" />
+            <element signature="e#828#929#0" />
+            <element signature="e#980#1023#0" />
+            <element signature="e#1067#1113#0" />
+            <element signature="e#1214#1405#0" />
+            <element signature="e#1447#1483#0" />
+            <element signature="e#1504#1762#0" />
+            <element signature="e#1784#2009#0" />
+            <element signature="e#2038#2138#0" />
           </folding>
         </state>
       </provider>
@@ -228,10 +246,17 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <first_editor relative-caret-position="60">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/switch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
         </state>
       </provider>
     </entry>

@@ -8,3 +8,4 @@
 ## 包含内容
 1. input输入框
 2. radio单选框
+3. switch开关

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>开关</title>
+    <style>
+        [type="checkbox"]{
+            position: absolute;
+            width: 44px;
+            height: 26px;
+            cursor: pointer;
+            opacity: 0;
+            margin:0;
+        }
+        .switch{
+            position: relative;
+            width: 44px;
+            height: 26px;
+            display: inline-block;
+            cursor: pointer;
+            background-color: #d9d9d9;
+            border-radius: 100px;
+            transition: .3s all ease-in-out;
+        }
+        .switch:before{
+            position: absolute;
+            content: '';
+            top: 2px;
+            bottom: 2px;
+            margin-left: 2px;
+            width: 0;
+            transition: all .3s;
+        }
+        .switch:after{
+            position: absolute;
+            content: '';
+            top:2px;
+            bottom: 2px;
+            margin-left: 2px;
+            width: 22px;
+            border-radius: 50%;
+            background-color: white;
+            transition: all .3s;
+        }
+        :checked ~ .switch{
+            background-color: #d9d9d9;
+        }
+        :checked ~ .switch:before{
+            width: calc(100% - 4px);
+            border-radius: 100px;
+            background-color: #62a2f5;
+        }
+        :checked ~ .switch:after{
+            margin-left: calc(100% - 24px);
+        }
+        :disabled + .switch{
+            filter: grayscale(100%);
+            cursor: not-allowed;
+        }
+        :focus + .switch{
+            box-shadow: 0 0 3px 3px #62a2f5;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <input type="checkbox" name="switch" id="switch">
+    <label class="switch" for="switch"></label>
+</div>
+<div>
+    <input type="checkbox" name="switch2" checked id="switch2" disabled>
+    <label class="switch" for="switch2"></label>
+</div>
+</body>
+</html>
