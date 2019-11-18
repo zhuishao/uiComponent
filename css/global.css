@@ -1,0 +1,123 @@
+fieldset{
+    background-color: rgb(16,14,23);
+    border-radius: 20px;
+    border-width: 0;
+}
+legend{
+    background-image: linear-gradient(rgb(230,47,111),rgb(255,137,1));
+    border-radius: 5px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: white;
+    padding:10px;
+}
+.cs-ques-li{
+    display: table;
+    color: white;
+    width: 100%;
+}
+.cs-caption{
+    display: table-caption;
+}
+.cs-ques-ul{
+    counter-reset: quesIndex;
+}
+.cs-ques-li::before{
+    counter-increment: quesIndex;
+    position: absolute;
+    content: counter(quesIndex);
+    color: white;
+    margin-top: -2.65em;
+    margin-left: -1em;
+}
+:optional ~ .cs-caption::after{
+    content: '（可选）';
+    color:gray;
+}
+:required ~ .cs-caption::after{
+    content: '（必选）';
+    color:red;
+}
+@keyframes radio-shadows {
+    0% {
+        box-shadow: 0 0 0 0 rgb(237,246,255);
+    }
+    50%{
+        box-shadow: 0 0 0 4px rgb(237,246,255);
+    }
+    100%{
+        box-shadow: 0 0 0 2px rgb(237,246,255);
+    }
+}
+/*原生单选框*/
+[type="radio"] {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    opacity: 0;
+}
+/*单选radio样式*/
+.cs-radio {
+    margin: 3px 3px 0 5px;
+    position: relative;
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px transparent;
+    transition: all .3s;
+}
+/*单选radio边框样式*/
+.cs-radio:before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    bottom: -4px;
+    left: -4px;
+    right: -4px;
+    border-radius: 50%;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d9d9d9;
+    cursor: pointer;
+    transition: all .3s;
+}
+.cs-radio + label {
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+/* 被选中状态 */
+:checked + .cs-radio {
+    border-color: #62a2f5;
+    background-color: #62a2f5;
+}
+:checked + .cs-radio:before {
+    border-color: #62a2f5;
+}
+/*鼠标移入状态*/
+:hover + .cs-radio:before {
+    border-color: #62a2f5;
+}
+/*获取焦点状态*/
+:focus + .cs-radio:before {
+    border-color: #62a2f5;
+    animation: radio-shadows .3s forwards;
+}
+/*禁用状态*/
+:disabled + .cs-radio:before {
+    cursor: not-allowed;
+    border-color: #d9d9d9;
+}
+:disabled + .cs-radio {
+    background-color: rgba(0, 0, 0, .2);
+    box-shadow: 0 0 0 4px rgb(245, 245, 245);
+}
+:disabled:not(:checked) + .cs-radio {
+    background-color: transparent;
+    box-shadow: 0 0 0 4px transparent;
+}

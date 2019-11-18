@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单布局</title>
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>问卷调查</legend>
+        <ol class="cs-ques-ul">
+            <li class="cs-ques-li">
+                <input type="radio" name="ques1" id="q_1_1" required>
+                <label for="q_1_1" class="cs-radio"></label>
+                <label for="q_1_1">1-3年</label>
+                <input type="radio" name="ques1" id="q_1_2" required>
+                <label for="q_1_2" class="cs-radio"></label>
+                <label for="q_1_2">3-5年</label>
+                <input type="radio" name="ques1" id="q_1_3" required>
+                <label for="q_1_3" class="cs-radio"></label>
+                <label for="q_1_3">5年以上</label>
+                <h4 class="cs-caption">你从事前端几年了?</h4>
+            </li>
+            <li class="cs-ques-li">
+                <textarea></textarea>
+                <h4 class="cs-caption">有什么其他想说的?</h4>
+            </li>
+        </ol>
+        <p><input type="submit" value="提交"></p>
+    </fieldset>
+</form>
+</body>
+</html>
